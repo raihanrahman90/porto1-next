@@ -9,9 +9,23 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        background: "#FFFDF4",
         foreground: "var(--foreground)",
+        second: "#08494B",
+        purplePrimary: "#2F1F70",
+        purpleSecondary: "#7579A4",
+        purpleThird: "#44367F",
+        purpleHighlight: "#DFFFF1",
+        greenPrimary: "#4C9D8D",
+        greenSecondary: "#08494B",
+
       },
+      fontFamily: {
+        spacegrotesk: ['Space Grotesk', 'sans-serif'],  // Add your custom font here
+      },
+      aspectRatio: {
+        '3/2' : '3 / 2'
+      }
     },
   },
   plugins: [],

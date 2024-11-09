@@ -18,6 +18,7 @@ const config: Config = {
         purpleHighlight: "#DFFFF1",
         greenPrimary: "#4C9D8D",
         greenSecondary: "#08494B",
+        cottageRed: "#ff3b36"
 
       },
       fontFamily: {
@@ -25,6 +26,9 @@ const config: Config = {
       },
       aspectRatio: {
         '3/2' : '3 / 2'
+      },
+      height:{
+        '80vh':'80vh'
       }
     },
   },

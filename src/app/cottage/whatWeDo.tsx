@@ -142,7 +142,7 @@ const CottageItem = ({image, title, description, subtitle}:CottageData) => {
 
     return (
         <div className='flex flex-wrap md:basis-2/5 basis-full'>
-            <div className='basis-full relative h-72 overflow-hidden' ref={refImage}>
+            <div className='basis-full relative md:h-72 h-52 overflow-hidden' ref={refImage}>
                 <motion.div 
                     initial={{ y: 300}}
                     animate={isImageInView ? { y: 0 } : {}}

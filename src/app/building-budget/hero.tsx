@@ -5,12 +5,15 @@ const Hero = () => {
         <div className="h-1/5">
 
         </div>
-        <div className="flex flex-wrap justify-around min-h-screen px-5 w-screen pt-12 pb-12 min-h-screen h-fit ">
-            <div className="md:h-screen relative basis-full md:basis-2/5 basis-full aspect-3/2">
+        <div className="flex flex-wrap justify-around min-h-screen px-5 w-full pt-12 pb-12 relative">
+            <div className="md:h-screen relative basis-full md:basis-2/5 basis-full aspect-3/2 overflow-hidden">
                 <Image
                 src={"/hero.webp"}
                 alt="hero image"
-                fill
+                width={0}
+                height={0}
+                layout="responsive"
+                className="w-full h-auto"
                 />
             </div>
             <div className="basis-full md:basis-2/5 flex flex-col justify-center gap-6 basis-full py-2">

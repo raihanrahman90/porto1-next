@@ -62,7 +62,7 @@ const CategoryBudget = () =>{
           
           <div className="container min-h-screen bg-purplePrimary items-center flex h-auto px-5">
             <div className="flex flex-row justify-evenly items-center min-h-screen py-12 flex-wrap">
-              <div className="grid grid-cols-4 gap-2 basis-full md:basis-1/2 text-purplePrimary h-full text-center p-3 border-dashed border-white border-2 rounded-md">
+              <div className="grid grid-cols-4 gap-2 basis-full md:basis-1/2 text-purplePrimary md:h-screen text-center p-3 border-dashed border-white border-2 rounded-md">
                 <div className={"row-span-2 flex justify-center items-center rounded-md"+ isActiveCategory('wages')} onClick={()=>setActiveCategory('wages')}>
                   Staff wages and Benefit
                 </div>

@@ -122,12 +122,13 @@ const AnatomyBuildingBudget = () =>{
           </div>
           <div className="basis-full md:basis-2/5 relative border-md gap-0">
             <div className="shadow-md rounded-md">
-              <div className="basis-full md:basis-2/5 relative flex flex-col items-start md:h-80 aspect-square">
+              <div className="w-full relative flex flex-col items-start md:h-80 aspect-square overflow-hidden h-64">
                 <Image
                   src={"anatomyBudget.svg"}
                   alt="anatomyBudget"
-                  fill
-                  className="object-cover"
+                  className="object-cover w-full h-auto"
+                  width={0}
+                  height={0}
                 />
               </div>
               <div className="bg-white text-start px-3 py-2">
